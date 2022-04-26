@@ -32,6 +32,7 @@ async function run() {
             }
             res.send(products)
         })
+
         // get data by id
         app.post('/productsByID', async (req, res) => {
             let key = req.body;
@@ -51,6 +52,7 @@ async function run() {
 
     }
     finally {
+
         // client.close();
     }
 }

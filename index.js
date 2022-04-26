@@ -52,7 +52,6 @@ async function run() {
 
     }
     finally {
-
         // client.close();
     }
 }
